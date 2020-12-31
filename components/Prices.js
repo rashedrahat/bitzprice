@@ -8,8 +8,9 @@ class Prices extends React.Component {
         return (
             <div>
                 <ul className="list-group">
-                    <li className="list-group-item">Bitcoin rate for {this.props.bpi[this.state.currency].description} :
-                        &emsp;<span className="badge badge-primary">{this.props.bpi[this.state.currency].code}</span>
+                    <li className="list-group-item">Bitcoin rate for {this.props.bpi[this.state.currency].description}:
+                        &emsp;
+                        <span className="badge badge-primary">{this.props.bpi[this.state.currency].code}</span>
                         <strong> {this.props.bpi[this.state.currency].rate}</strong>
                     </li>
                 </ul>
